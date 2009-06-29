@@ -1,0 +1,112 @@
+sgml-common
+-------------------------------------------
+The sgml-common package gathers very basic stuff necessary to
+work with SGML and XML.
+
+They currently contain:
+  - xml.dcl: SGML declaration of XML
+  - iso-entities: the basic SGML ISO entities
+  - install-catalog: a script used to add entries to (or remove
+    entries from) centralized catalogs. These entries are pointers
+    to SGML open catalogs as defined by OASIS (see TR9401:1997 on
+    http://www.oasis-open.org).
+  - sgmlwhich: a small script telling where SGML main configuration file
+    is located (provided for compatibility with non-FHS systems)
+
+Build requirements:
+  autoconf2.5-2.63-10
+  automake1.4-1.4p6-10
+  cygport-0.9.7-1
+  make-3.81-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.iso.ch/cate/3524030.html
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/devel/docbook/SOURCES/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sgml-common-0.6.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sgml-common-0.6.3-X.cygport all
+
+This will create:
+  /usr/src/sgml-common-0.6.3-X-src.tar.bz2
+  /usr/src/sgml-common-0.6.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/sgml-common.sh
+  /etc/preremove/sgml-common.sh
+  /etc/sgml/sgml.conf
+  /usr/bin/install-catalog
+  /usr/bin/sgmlwhich
+  /usr/share/doc/sgml-common/AUTHORS
+  /usr/share/doc/sgml-common/ChangeLog
+  /usr/share/doc/sgml-common/COPYING
+  /usr/share/doc/sgml-common/html/fdl.html
+  /usr/share/doc/sgml-common/html/index.html
+  /usr/share/doc/sgml-common/html/install-catalog.html
+  /usr/share/doc/sgml-common/html/introduction.html
+  /usr/share/doc/sgml-common/NEWS
+  /usr/share/doc/sgml-common/README
+  /usr/share/man/man8/install-catalog.8.gz
+  /usr/share/sgml/sgml-iso-entities-8879.1986/catalog
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsa.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsb.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsc.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsn.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamso.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsr.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISObox.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOcyr1.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOcyr2.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOdia.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk1.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk2.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk3.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk4.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOlat1.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOlat2.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOnum.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOpub.ent
+  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOtech.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/catalog
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsa.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsb.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsc.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsn.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamso.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsr.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISObox.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOcyr1.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOcyr2.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOdia.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk1.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk2.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk3.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk4.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOlat1.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOlat2.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOnum.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOpub.ent
+  /usr/share/sgml/xml-iso-entities-8879.1986/ISOtech.ent
+  /usr/share/sgml/xml.dcl
+
+------------------
+
+Port Notes:
+
+----- version 0.6.3-10 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
