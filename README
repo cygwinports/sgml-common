@@ -16,7 +16,7 @@ They currently contain:
 Build requirements:
   autoconf2.5-2.63-10
   automake1.4-1.4p6-10
-  cygport-0.9.7-1
+  cygport-0.9.10-1
   make-3.81-2
   sed-4.1.5-2
 
@@ -41,70 +41,9 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/postinstall/sgml-common.sh
-  /etc/preremove/sgml-common.sh
-  /etc/sgml/sgml.conf
-  /usr/bin/install-catalog
-  /usr/bin/sgmlwhich
-  /usr/share/doc/sgml-common/AUTHORS
-  /usr/share/doc/sgml-common/ChangeLog
-  /usr/share/doc/sgml-common/COPYING
-  /usr/share/doc/sgml-common/html/fdl.html
-  /usr/share/doc/sgml-common/html/index.html
-  /usr/share/doc/sgml-common/html/install-catalog.html
-  /usr/share/doc/sgml-common/html/introduction.html
-  /usr/share/doc/sgml-common/NEWS
-  /usr/share/doc/sgml-common/README
-  /usr/share/man/man8/install-catalog.8.gz
-  /usr/share/sgml/sgml-iso-entities-8879.1986/catalog
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsa.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsb.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsc.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsn.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamso.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOamsr.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISObox.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOcyr1.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOcyr2.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOdia.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk1.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk2.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk3.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOgrk4.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOlat1.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOlat2.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOnum.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOpub.ent
-  /usr/share/sgml/sgml-iso-entities-8879.1986/ISOtech.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/catalog
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsa.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsb.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsc.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsn.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamso.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOamsr.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISObox.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOcyr1.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOcyr2.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOdia.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk1.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk2.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk3.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOgrk4.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOlat1.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOlat2.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOnum.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOpub.ent
-  /usr/share/sgml/xml-iso-entities-8879.1986/ISOtech.ent
-  /usr/share/sgml/xml.dcl
-
-------------------
-
 Port Notes:
 
------ version 0.6.3-10 -----
+----- version 0.6.3-3 -----
 Initial release for Cygwin 1.7.
 
 

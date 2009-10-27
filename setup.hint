@@ -1,5 +1,5 @@
-category: Doc Text
-requires: bash
+category: Text
+requires: bash coreutils
 sdesc: "Basic SGML and XML entities and tools"
 ldesc: "The sgml-common package gathers very basic stuff necessary to
 work with SGML and XML.
