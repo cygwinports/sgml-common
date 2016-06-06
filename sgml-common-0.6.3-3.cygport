@@ -1,9 +1,0 @@
-DESCRIPTION="SGML core entities"
-HOMEPAGE="http://www.iso.ch/cate/3524030.html"
-SRC_URI="mirror://kde/devel/docbook/SOURCES/${P}.tgz"
-PATCH_URI="http://www.linuxfromscratch.org/patches/blfs/svn/sgml-common-0.6.3-manpage-1.patch
-           0.6.3-vpath.patch"
-
-DISTCLEANFILES="COPYING INSTALL install-sh missing mkinstalldirs"
-
-MAKEOPTS+=" htmldir=/usr/share/doc/${PN}/html"
